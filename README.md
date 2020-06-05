@@ -5,6 +5,7 @@ Material de apoio da matéria de Inteligência Computaciona Aplicada do IFCE *ca
 
 ## Projetos
   - [Projeto 0](projetos/projeto-0/projeto-0.md)
+  - [Projeto 1](projetos/projeto-1/projeto-1.md)
 
 ## FAQ
  - Eu posso utilizar o jupyter notebook ou outro IDE para realizar meus projetos?
