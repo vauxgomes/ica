@@ -80,7 +80,7 @@ Os dados são suados para fazer uma separação de padrões de diagnóstico méd
 | Benigno | 2 |
 | Maligno | 4 |
 
-## Estudo do conjunto de dados
+## Ajustes no conjunto de dados
 ```
 
 2. `[Code]`: Criar e executar a célula abaixo realizando o `import` das bibliotecas `numpy` e `pandas` e montando o drive do Google:
@@ -157,7 +157,21 @@ df['class'] = df['class'].replace(2, 0) # Comentário
 df['class'] = df['class'].replace(4, 1) # Comentário
 ```
 
-#### Parte V - Usando os valores das colunas
+#### Parte IV - Colunas desnecessárias
+
+Algumas colunas dos dados pode ser redundantes e/ou desnecessárias. Cabe a nós entendermos a natureza dos dados e observar, por meio de métricas, que colunas são estas. Por enquanto, podemos apenas nos livrar da coluna `id` que não traz nenhuma informação relevante.
+
+1. Copie, execute o código abaixo e explique no comentário a importância do valor de `axis` na função `.drop()`:
+
+```py
+# Visualizando contagem de uma coluna
+df.drop(['id'], axis=1)
+
+''' Usamos axis=1 quando...; e usamos axis=0 quando... . O valor default de axis é X '''
+```
+
+
+#### Parte V - Buscando dados à partir dos valores das colunas
 
 Podemos fazer buscas nos valores das colunas com pequenas porções de código. O exemplo abaixo mostra todas as linhas do conjunto de dados onde a coluna `size` é maior ou igual a 7 e a coluna `shape` é menor que 3.
 
@@ -176,7 +190,9 @@ df[(df['size'] >= 7) & (df['shape'] < 3)]
    - Quantas linhas tem classe benigna e mitose maior que 5
    - Quantas linhas tem todas as colunas iguais a 3
 
-> **Dica**: Use o atributo `shape` se necessário.
+> **Dica**: Use o atributo `shape` no resultado das buscas, se necessário.
+
+> **Atenção**: Crie um novo bloco `[Code]` para responder cada um dos itens acima.
 
 ## Como submeter o Projeto
 1. Procure o botão `Compartilhar` no Google Colab e escolha `copiar link`;
