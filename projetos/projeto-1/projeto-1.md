@@ -31,7 +31,7 @@ Desenvolver a compreensão da manipulação de colunas com o pandas.
 #### Parte I
 
 1. Criar uma pasta chamada `IFCE_ICA_SEUNOME` no diretório raiz do seu Google Drive, substituindo `SEUNOME`;
-    1. Criar uma subpasta chamada `Projeto 0`;
+    1. Criar uma subpasta chamada `Projeto 1`;
     2. Fazer o upload do arquivo `.data` e `.names` para o a pasta do projeto;
     3. Criar um novo projeto do tipo Google Colab intitulado **projeto-0-`SEUNOME`**. 
        - [Clique aqui para obter ajuda!](#ajuda)
