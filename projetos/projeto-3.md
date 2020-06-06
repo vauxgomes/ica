@@ -4,7 +4,7 @@
 [![Vscode](https://img.shields.io/badge/-pandas-gray?logo=pandas)](https://code.visualstudio.com/)
 [![Vscode](https://img.shields.io/badge/-jupyter-gray?logo=jupyter)](https://code.visualstudio.com/)
 
-[← Voltar](../../README.md)
+[← Voltar](../README.md)
 
 ## Sumário
 
