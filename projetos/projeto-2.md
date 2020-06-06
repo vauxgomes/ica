@@ -190,9 +190,8 @@ df.plot.scatter(x='size', y='shape', c='class' figsize=(10,6))
  > **Atenção**: Execute todas as células antes de enviar o link
 
 ## Ajuda
- - [Google Colab para Iniciantes](https://medium.com/machina-sapiens/google-colab-guia-do-iniciante-334d70aad531)
- - [Markdown para Iniciantes](https://produtive.me/guia/markdown-um-guia-para-iniciantes/)
  - [Uma Introdução Simples ao Pandas](https://medium.com/data-hackers/uma-introdu%C3%A7%C3%A3o-simples-ao-pandas-1e15eea37fa1)
+ - [Visualização de Dados no Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
 
 ## Contatos
 Em caso de dúvidas procure contato via:
