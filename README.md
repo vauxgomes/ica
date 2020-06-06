@@ -4,11 +4,18 @@
 Material de apoio da matéria de Inteligência Computaciona Aplicada do IFCE *campus* Jaguaribe.
 
 ## Projetos
-  - [Projeto 0](projetos/projeto-0.md)
-  - [Projeto 1](projetos/projeto-1.md)
-  - [Projeto 2](projetos/projeto-2.md)
-  - [Projeto 3](projetos/projeto-3.md)
-  - [Projeto 4](projetos/projeto-4.md)
+  - **Pandas**
+    - [Projeto 0](projetos/projeto-0.md)
+    - [Projeto 1](projetos/projeto-1.md)
+    - [Projeto 2](projetos/projeto-2.md)
+    - [Projeto 3](projetos/projeto-3.md)
+    - [Projeto 4](projetos/projeto-4.md)
+  - **Aprendizagem computacional**
+  - **Scikit-learn**
+    - **Lógica Nebulosa (Fuzzy)**
+    - **Regressão**
+    - **K-Vizinhos Mais Próximos**
+    - **Árvores**
 
 ## FAQ
  - Eu posso utilizar o jupyter notebook ou outro IDE para realizar meus projetos?
