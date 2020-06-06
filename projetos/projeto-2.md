@@ -17,7 +17,7 @@
 - [Contatos](#contatos)
 
 ## Objetivo
-Desenvolver a compreensão da manipulação de colunas com o pandas.
+Ser introduzido à visualização de dados por meio da biblioteca pandas.
 
 ## Instruções
 
@@ -47,7 +47,7 @@ Autor: SEUMOME
 Turma: XXXX.X
 
 ## Objetivo
-Desenvolver a compreensão da manipulação de colunas com o pandas.
+Ser introduzido à visualização de dados por meio da biblioteca pandas.
 
 ## Dados
 BCW é um banco de dados sobre câncer de Mama de Wisconsin (8 de janeiro de 1991) disponibilizado pelo hospital da Universidade de Wisconsin, em Madison, do **Dr. William H. Wolberg**. 
