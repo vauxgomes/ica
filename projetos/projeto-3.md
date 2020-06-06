@@ -17,7 +17,7 @@
 - [Contatos](#contatos)
 
 ## Objetivo
-Passar a encontrar informações presente nos dados por meio de análises simples.
+Apresentar métodos de alteração das colunas do dado
 
 ## Instruções
 
@@ -47,7 +47,7 @@ Autor: SEUMOME
 Turma: XXXX.X
 
 ## Objetivo
-Passar a encontrar informações presente nos dados por meio de análises simples.
+Apresentar métodos de alteração das colunas do dado
 
 ## Dados
 Cars é um conjunto de dados que foi desenvolvido à partir de um modelo de classificação. Este conjunto de dados pode ser usado tanto como um **problemas de classificação** quanto como um **problema de regressão**
@@ -115,7 +115,7 @@ df.dtypes
 ''' Todas as colunas desse conjunto de dados são do tipo X '''
 ```
 
-`[Md]`: Criar e executar a célula abaixo
+5. `[Md]`: Criar e executar a célula abaixo
 
 ```md
 ## Observação das colunas e ajustes de seus valores
@@ -124,7 +124,8 @@ df.dtypes
 ### Parte III
 
 1. `[Code]`: Criar e executar a célula abaixo, para observarmos os valores existentes na coluna `doors`.
-   - Veja que o único valor não numérico é o `5more` que representam os carros de 5 portas ou mais.
+   - Veja que **todos** os valores são **não numéricos** (tipo `string`);
+   - O valor `5more` representa carros de 5 portas ou mais.
 
 ```py
 # Leitura dos dados
@@ -150,7 +151,10 @@ mapa = {
    # Nome da coluna
    'doors': {
       # Valor indesejado: valor desejado
-      '5more': 5
+      '2': 2, # Transformando em inteiro
+      '3': 3,
+      '4': 4,
+      '5more': 5,
    }
 }
 
@@ -166,8 +170,17 @@ df.replace(mapa)['doors'].value_counts()
 mapa = {
    'buying': {},
    'maint': {},
-   'doors': { '5more': 5 },
-   'persons': { 'more': 5 },
+   'doors': {
+      '2': 2,
+      '3': 3,
+      '4': 4,
+      '5more': 5 
+   },
+   'persons': { 
+      '2': 2,
+      '4': 4,
+      'more': 5
+   },
    'lug_boot': {},
    'safety': {
       'low': 0,
@@ -189,6 +202,19 @@ mapa = {
 ```py
 df.replace(mapa).dtypes
 ```
+
+> **Dica**: Não seria necessário mapearmos as valores '2' e '4' da coluna `person`, já que eles podem ser convertidos para inteiro. Segue o exemplo:
+> ```py
+> mapa {
+>   # Apenas as colunas que não podem ser
+>   # convertidas para inteiro
+> }
+> 
+> df.replace(mapa).astype('int64').dtypes
+> ```
+> [Clique aqui para obter ajuda!](#ajuda)
+
+
 
 ### Parte V - Abordagem 2: One Hot Encoding
 
@@ -233,9 +259,8 @@ pd.get_dummies(df, columns=colunas).dtypes
  > **Atenção**: Execute todas as células antes de enviar o link
 
 ## Ajuda
- - [Google Colab para Iniciantes](https://medium.com/machina-sapiens/google-colab-guia-do-iniciante-334d70aad531)
- - [Markdown para Iniciantes](https://produtive.me/guia/markdown-um-guia-para-iniciantes/)
  - [Uma Introdução Simples ao Pandas](https://medium.com/data-hackers/uma-introdu%C3%A7%C3%A3o-simples-ao-pandas-1e15eea37fa1)
+ - [Tipos de Dados do Pandas](https://pbpython.com/pandas_dtypes.html)
 
 ## Contatos
 Em caso de dúvidas procure contato via:
