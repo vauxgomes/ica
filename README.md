@@ -27,7 +27,6 @@ Material de apoio da matéria de Inteligência Computaciona Aplicada do IFCE *ca
 
 
 ## Contatos
-Em caso de dúvidas procure contato via:
- - Google Sala de Aula
- - Email Institucional
+[![LinkedIn](https://img.shields.io/badge/-linkedin-blue?logo=linkedin)](http://bit.ly/vx-linkedin)
+[![LinkedIn](https://img.shields.io/badge/-twitter-blue?logo=twitter)](https://bit.ly/vx-twitter)
 
