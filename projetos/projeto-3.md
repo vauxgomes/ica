@@ -1,8 +1,8 @@
 # Projeto: 3
 
 [![Python](https://img.shields.io/badge/-python-gray?logo=python)](https://www.python.org/)
-[![Vscode](https://img.shields.io/badge/-pandas-gray?logo=pandas)](https://code.visualstudio.com/)
-[![Vscode](https://img.shields.io/badge/-jupyter-gray?logo=jupyter)](https://code.visualstudio.com/)
+[![Pandas](https://img.shields.io/badge/-pandas-gray?logo=pandas)](https://pandas.pydata.org/)
+[![Jupyter](https://img.shields.io/badge/-jupyter-gray?logo=jupyter)](https://jupyter.org/)
 
 [← Voltar](../README.md)
 
