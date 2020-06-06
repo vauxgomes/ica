@@ -4,7 +4,7 @@
 [![Vscode](https://img.shields.io/badge/-pandas-gray?logo=pandas)](https://code.visualstudio.com/)
 [![Vscode](https://img.shields.io/badge/-jupyter-gray?logo=jupyter)](https://code.visualstudio.com/)
 
-[← Voltar](../../README.md)
+[← Voltar](../README.md)
 
 ## Sumário
 
@@ -187,7 +187,7 @@ df.plot.scatter(x='size', y='shape', c='class' figsize=(10,6))
 1. Procure o botão `Compartilhar` no Google Colab e escolha `copiar link`;
 2. Envie o link na tarefa do Google Salada de Aula, relacionada ao projeto.
 
- > **Atenção**: Execute todas as células antes de enviar o link*
+ > **Atenção**: Execute todas as células antes de enviar o link
 
 ## Ajuda
  - [Google Colab para Iniciantes](https://medium.com/machina-sapiens/google-colab-guia-do-iniciante-334d70aad531)

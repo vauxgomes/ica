@@ -4,7 +4,7 @@
 [![Vscode](https://img.shields.io/badge/-pandas-gray?logo=pandas)](https://code.visualstudio.com/)
 [![Vscode](https://img.shields.io/badge/-jupyter-gray?logo=jupyter)](https://code.visualstudio.com/)
 
-[← Voltar](../../README.md)
+[← Voltar](../README.md)
 
 ## Sumário
 
@@ -25,7 +25,7 @@ Para as instruções abaixo:
  - `[Md]`: indica que a célula usada é do tipo **texto**/**markdown**
  - `[Code]`: indica que a célula usada é do tipo **código**
 
- ![Menu Inserir](../img/g-colab-new-cell.png)
+ ![Menu Inserir](img/g-colab-new-cell.png)
 
 ### Dados
 
@@ -137,7 +137,7 @@ df.head(10)
 1. Procure o botão `Compartilhar` no Google Colab e escolha `copiar link`;
 2. Envie o link na tarefa do Google Salada de Aula, relacionada ao projeto.
 
- > **Atenção**: Execute todas as células antes de enviar o link*
+ > **Atenção**: Execute todas as células antes de enviar o link
 
 ## Ajuda
  - [Google Colab para Iniciantes](https://medium.com/machina-sapiens/google-colab-guia-do-iniciante-334d70aad531)
