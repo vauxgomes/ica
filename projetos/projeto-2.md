@@ -24,7 +24,7 @@ Ser introduzido à visualização de dados por meio da biblioteca pandas.
 ### Dados
 
 1. Acessar o site do [*UCI Machine Learning Repository*](https://archive.ics.uci.edu/ml/datasets.php) e procurar pelo conjunto de dados chamado **Breast Cancer Wisconsin**.
-2. Clicar em `Data Folder` e realizar o download do arquivo; `breast-cancer-wisconsin.data`;
+2. Clicar em `Data Folder` e realizar o download dos arquivos `breast-cancer-wisconsin.data` e `breast-cancer-wisconsin.names`;
 
 ### Projeto
 
