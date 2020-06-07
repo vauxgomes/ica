@@ -1,8 +1,10 @@
 # Projeto: 5
 
 [![Python](https://img.shields.io/badge/-python-gray?logo=python)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/-pandas-gray?logo=pandas)](https://pandas.pydata.org/)
 [![Jupyter](https://img.shields.io/badge/-jupyter-gray?logo=jupyter)](https://jupyter.org/)
+[![Pandas](https://img.shields.io/badge/-pandas-gray?logo=pandas)](https://pandas.pydata.org/)
+[![Scikit Learn](https://img.shields.io/badge/-sklearn-gray?logo=python&logoColor=white)](https://pandas.pydata.org/)
+
 
 [← Voltar](../README.md)
 
