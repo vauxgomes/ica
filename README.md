@@ -10,8 +10,8 @@ Material de apoio da matéria de Inteligência Computaciona Aplicada do IFCE *ca
     - [Projeto 2](projetos/projeto-2.md)
     - [Projeto 3](projetos/projeto-3.md)
     - [Projeto 4](projetos/projeto-4.md)
-  - **Aprendizagem computacional**
   - **Scikit-learn**
+    - [Projeto 5](projetos/projeto-5.md)
     - **Lógica Nebulosa (Fuzzy)**
     - **Regressão**
     - **K-Vizinhos Mais Próximos**
