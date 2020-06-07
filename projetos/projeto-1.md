@@ -43,8 +43,8 @@ Desenvolver a compreensão da manipulação de colunas com o pandas.
 
 ```md
 # Projeto: 1
-Autor: SEUMOME
-Turma: XXXX.X
+ - Autor: SEUMOME
+ - Turma: XXXX.X
 
 ## Objetivo
 Desenvolver a compreensão da manipulação de colunas com o pandas.

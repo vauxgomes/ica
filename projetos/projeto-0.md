@@ -51,8 +51,8 @@ No Google Colab:
 
 ```md
 # Projeto: 0
-Autor: SEUMOME
-Turma: XXXX.X
+ - Autor: SEUMOME
+ - Turma: XXXX.X
 
 ## Objetivo
 Iniciar o aprendizado do pandas e do jupyter notebooks (Google Colab)
@@ -94,7 +94,7 @@ from google.colab import drive
 drive.mount('/content/drive', force_remount=True)
 ```
 
-3. `[Code]`: Criar a célula e ajustar os valores das variáveis abaixo:
+2. `[Code]`: Criar a célula e ajustar os valores das variáveis abaixo:
     - Substituia `SEUNOME` e `NUMERODOPROJETO`
     - Execute a célula
 
@@ -106,7 +106,7 @@ arquivo = '/content/drive/My Drive/IFCE_IAC_SEUNOME/Projeto NUMERODOPROJETO/brea
 nomes = ['id', 'thickness', 'size', 'shape', 'adh', 'epsize', 'barenuclei', 'chromatin', 'nucleoli', 'mitoses', 'class']
 ```
 
-4. `[Code]`: Criar e executar a célula abaixo, realizando a leitura do arquivo `.data` por meio do `pandas` em uma variável chamada `df`:
+3. `[Code]`: Criar e executar a célula abaixo, realizando a leitura do arquivo `.data` por meio do `pandas` em uma variável chamada `df`:
 
 ```py
 # Leitura dos dados

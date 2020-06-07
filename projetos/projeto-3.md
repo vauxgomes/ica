@@ -43,8 +43,8 @@ Apresentar métodos de alteração das colunas do dado
 
 ```md
 # Projeto: 3
-Autor: SEUMOME
-Turma: XXXX.X
+ - Autor: SEUMOME
+ - Turma: XXXX.X
 
 ## Objetivo
 Apresentar métodos de alteração das colunas do dado
@@ -102,7 +102,7 @@ arquivo = '/content/drive/My Drive/IFCE_IAC_SEUNOME/Projeto NUMERODOPROJETO/car.
 nomes = ['buying', 'maint', 'doors', 'persons', 'lug_boot', 'safety', 'class']
 ```
 
-4. `[Code]`: Criar e executar a célula abaixo, realizando a leitura do arquivo `.data` por meio do `pandas` em uma variável chamada `df`:
+3. `[Code]`: Criar e executar a célula abaixo, realizando a leitura do arquivo `.data` por meio do `pandas` em uma variável chamada `df`:
    - Preencha o valor de `X`
 
 ```py
@@ -115,7 +115,7 @@ df.dtypes
 ''' Todas as colunas desse conjunto de dados são do tipo X '''
 ```
 
-5. `[Md]`: Criar e executar a célula abaixo
+4. `[Md]`: Criar e executar a célula abaixo
 
 ```md
 ## Observação das colunas e ajustes de seus valores
@@ -259,6 +259,8 @@ pd.get_dummies(df, columns=colunas).dtypes
  > **Atenção**: Execute todas as células antes de enviar o link
 
 ## Ajuda
+
+ - [Google Colab para Iniciantes](https://medium.com/machina-sapiens/)
  - [Uma Introdução Simples ao Pandas](https://medium.com/data-hackers/uma-introdu%C3%A7%C3%A3o-simples-ao-pandas-1e15eea37fa1)
  - [Tipos de Dados do Pandas](https://pbpython.com/pandas_dtypes.html)
 

@@ -43,8 +43,8 @@ Ser introduzido à visualização de dados por meio da biblioteca pandas.
 
 ```md
 # Projeto: 2
-Autor: SEUMOME
-Turma: XXXX.X
+ - Autor: SEUMOME
+ - Turma: XXXX.X
 
 ## Objetivo
 Ser introduzido à visualização de dados por meio da biblioteca pandas.
@@ -109,14 +109,14 @@ nomes = ['id', 'thickness', 'size', 'shape', 'adh', 'epsize', 'barenuclei', 'chr
 
 ```
 
-4. `[Code]`: Criar e executar a célula abaixo, realizando a leitura do arquivo `.data` por meio do `pandas` em uma variável chamada `df`:
+3. `[Code]`: Criar e executar a célula abaixo, realizando a leitura do arquivo `.data` por meio do `pandas` em uma variável chamada `df`:
 
 ```py
 # Leitura dos dados
 df = pd.read_csv(arquivo, names=nomes)
 ```
 
-5. `[Code]`: Criar e executar a célula abaixo, realizando os ajustes iniciais no nosso conjunto de dados.
+4. `[Code]`: Criar e executar a célula abaixo, realizando os ajustes iniciais no nosso conjunto de dados.
 
 ```py
 # Removendo coluna ID
@@ -129,6 +129,7 @@ df = df.dropna() # Eliminando linhas que contém NaN
 # Ajustando os valores das classes
 df['class'] = df['class'].replace(2, 0).replace(4, 1)
 ```
+
 ### Parte III - Distribuição dos dados
 
 Uma boa maneira de observar a distribuição de dados é por meio de plots ou usando a função `.value_counts()`.
@@ -190,6 +191,8 @@ df.plot.scatter(x='size', y='shape', c='class' figsize=(10,6))
  > **Atenção**: Execute todas as células antes de enviar o link
 
 ## Ajuda
+
+ - [Google Colab para Iniciantes](https://medium.com/machina-sapiens/)
  - [Uma Introdução Simples ao Pandas](https://medium.com/data-hackers/uma-introdu%C3%A7%C3%A3o-simples-ao-pandas-1e15eea37fa1)
  - [Visualização de Dados no Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
 

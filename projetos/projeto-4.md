@@ -43,8 +43,8 @@ Entender correlação estatística por meio da visualização dos dados
 
 ```md
 # Projeto: 4
-Autor: SEUMOME
-Turma: XXXX.X
+ - **Autor**: SEUMOME
+ - **Turma**: XXXX.X
 
 ## Objetivo
 Entender correlação estatística por meio da visualização dos dados
@@ -97,8 +97,7 @@ arquivo = '/content/drive/My Drive/IFCE_IAC_SEUNOME/Projeto NUMERODOPROJETO/iris
 nomes = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class']
 ```
 
-4. `[Code]`: Criar e executar a célula abaixo, realizando a leitura do arquivo `.data` por meio do `pandas` em uma variável chamada `df`:
-   - Preencha o valor de `X`
+3. `[Code]`: Criar e executar a célula abaixo, realizando a leitura do arquivo `.data` por meio do `pandas` em uma variável chamada `df`:
 
 ```py
 # Leitura dos dados
@@ -108,7 +107,7 @@ df = pd.read_csv(arquivo, names=nomes)
 df.head(10)
 ```
 
-1. `[Md]`: Criar e executar a célula abaixo
+4. `[Md]`: Criar e executar a célula abaixo
 
 ```md
 ## Ajuste na coluna `class`
@@ -237,6 +236,8 @@ df.plot.scatter(x='sepal_width', y='petal_length', c='class', colormap='viridis'
  > **Atenção**: Execute todas as células antes de enviar o link
 
 ## Ajuda
+
+ - [Google Colab para Iniciantes](https://medium.com/machina-sapiens/)
  - [Uma Introdução Simples ao Pandas](https://medium.com/data-hackers/uma-introdu%C3%A7%C3%A3o-simples-ao-pandas-1e15eea37fa1)
  - [Visualização de Dados no Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
  - [Correlação no Pandas](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.corr.html)
