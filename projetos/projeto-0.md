@@ -59,10 +59,10 @@ Na figura abaixo temos dois tipos de células de texto:
 
 ![NewColabFile](img/colab-2.png)
 
-Adicione uma célula de texto e cole o conteúdo abaixo, preenchendo as informações de autor e turma.
+Adicione uma célula de texto e cole o conteúdo abaixo, preenchendo as informações do número do projeto, autor e turma.
 
 ```md
-# Projeto: 0
+# Projeto: X
  - Autor: XXXX
  - Turma: XXXX
 
@@ -76,6 +76,9 @@ Criar uma função chamada `perc(a,b)` que:
 ```
 
 Adicione uma célula de código e resolva o desafio acima. Teste a sua função em uma célula separada.
+
+> Para executar as células de código use o comando `Ctrl+Enter` ou clique no símbolo de *play* ao lado da célula.
+
 
 ## UCI Repository
 
