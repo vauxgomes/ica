@@ -1,4 +1,5 @@
-# Projeto: 0
+# Inteligência Computacional Aplicada
+## Projeto 0
 
 [![Python](https://img.shields.io/badge/-python-gray?logo=python)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/-pandas-gray?logo=pandas)](https://pandas.pydata.org/)
@@ -19,7 +20,7 @@
 - [Contatos](#contatos)
 
 ## Objetivo
-Iniciar o aprendizado do pandas e do jupyter notebooks no Google Colab.
+Iniciar o aprendizado do Jupyter Notebooks no Google Colab.
 
 ## Ferramentas
 ### Google Colabolatory
@@ -55,3 +56,37 @@ Dentro da pasta `projeto-0/` clique com o botão direito e crie um novo document
 #### Ambiente de desenvolvimento
 
 O Colab será o ambiente de desenvolvimento para esta disciplina. Dentre outras vantagens, a ferramenta disponibiliza GPUs para os processamentos de dados que devemos executar durante o decorrer da disciplina.
+
+Na figura abaixo temos dois tipos de células de texto:
+ - `+Code`: Onde escrevemos códigos em Python
+ - `+Text`: Onde escrevemos textos em Markdown (leia mais na [Seção de Ajuda](#ajuda))
+
+![NewColabFile](img/colab-2.png)
+
+Adicione uma célula de texto e cole o conteúdo abaixo, preenchendo as informações de autor e turma.
+
+```md
+# Projeto: 0
+ - Autor: XXXX
+ - Turma: XXXX
+
+## Objetivo
+Iniciar o aprendizado do Jupyter Notebooks no Google Colab.
+
+## Desafio
+Criar uma função chamada `perc(a,b)` que:
+ - **Recebe**: 2 valores, `a` e `b`
+ - **Retorna**: 2 valores, $\frac{a}{a+b}$ e $\frac{b}{a+b}$
+```
+
+Adicione uma célula de código e resolva o desafio acima.
+
+## Ajuda
+ - [Markdown para Iniciantes](https://produtive.me/guia/markdown-um-guia-para-iniciantes/)
+
+## Contatos
+Em caso de dúvidas procure contato via:
+ - Google Sala de Aula
+ - Email Institucional
+
+[↑ Topo](#inteligência-computacional-aplicada)
