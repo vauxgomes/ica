@@ -10,7 +10,7 @@
 ## Sumário
 
 - [Objetivo](#objetivo)
-- [Desafio](#desafio)
+- [Projeto](#projeto)
 - [Como Submeter o Projeto](#como-submeter-o-projeto)
 - [Ajuda](#ajuda)
 - [Contatos](#contatos)
@@ -34,6 +34,8 @@ Adicione uma célula de texto e cole o conteúdo abaixo, preenchendo as informa�
 ## Objetivo
 Iniciar o aprendizado do pandas.
 ```
+
+> Usaremos este padrão de cabeçalho de agora em diante
 
 ### Importando o Pandas
 
@@ -90,9 +92,38 @@ Ao ser carregado o conjunto de dados, o Pandas assume que a primeira linha do ar
 
 ### Informações sobre os dados
 
+#### Atributo `shape`
+
+O atributo `shape` retorna o formato da matriz que representa os dados. Ou seja, o número de linhas (índice 0) e colunas (índice 1) dos dados. Crie a seguinte célula de código.
+
+```py
+print('Este conjunto de dados tem {} linhas e {} colunas'.format(
+    df.shape[0], df.shape[1]))
+```
+
+#### Atributo `dtype`
+
+O atributo `dtypes` retorna o tipo de dado de cada coluna. 
+
+> Este atributo será relevante quando formos preprocessar dados para ajustar aos algoritmos de aprendizado de máquina
+
+Crie a seguinte célula de código. E observe o tipo de cada coluna.
+
+```py
+df.dtype
+```
+
+#### Atributo `columns`
+
+O atributo `columns` retorna uma série com o nome de todas as colunas. Crie a seguinte célula de código.
+
+```py
+df.columns
+```
+
 #### Função `head` e `tail`
 
-As funções `head` e `tail` exibem *x* instâncias (linhas) do começo e do fim do arquivo carregado, respectivamente. Crie as seguinte células de código.
+As funções `head` e `tail` exibem *x* instâncias (linhas) do começo e do fim do arquivo carregado, respectivamente. Crie a seguinte célula de código.
 
 1. 
     ```py
@@ -118,19 +149,30 @@ As funções `head` e `tail` exibem *x* instâncias (linhas) do começo e do fim
     df.tail(3)
     ```
 
-#### Atributo `shape`
+### Função `describe`
 
-O atributo `shape` retorna o formato da matriz que representa os dados. Ou seja, o número de linhas e colunas dos dados. Crie as seguinte células de código.
+A função `describe`, de forma simplificada, exibe alguns dados estatísticos. Crie a seguinte célula de código.
 
 ```py
-shape = df.shape
+df.describe()
+```
 
-print('Este conjunto de dados tem {} linhas e {} colunas'.format(shape[0], shape[1]))
+Copie a célula de texto a seguir e explique o que é cada informação do describe significa.
+
+```
+- **count**:
+- **mean**:
+- **std**:
+- **min**:
+- **25%**:
+- **50%**:
+- **75%**:
+- **max**:
 ```
 
 ## Como submeter o Projeto
 
-Compatilhe **o link da pasta** da disciplina na tarefa do Google Salada de Aula relacionada a este projeto.
+Compatilhe **o link da pasta** do projeto na tarefa do Google Salada de Aula relacionada a este projeto.
 
 ## Ajuda
 

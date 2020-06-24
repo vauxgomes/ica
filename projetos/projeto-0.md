@@ -96,7 +96,7 @@ Faça o upload dos arquivos na pasta `data/`.
 
 ## Como submeter o Projeto
 
-Compatilhe **o link da pasta** da disciplina na tarefa do Google Salada de Aula relacionada a este projeto.
+Compatilhe **o link da pasta** do projeto na tarefa do Google Salada de Aula relacionada a este projeto.
 
 ## Ajuda
 
