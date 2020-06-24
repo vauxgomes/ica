@@ -170,6 +170,14 @@ Copie a célula de texto a seguir e explique o que é cada informação do descr
 - **max**:
 ```
 
+### Função `corr`
+
+A função `corr`, retorna uma matriz da correlação estatística entre as colunas do conjunto de dados. Podemos usar esta informação para descartar algumas colunas. Crie a seguinte célula de código.
+
+```py
+df.corr()
+```
+
 ## Como submeter o Projeto
 
 Compatilhe **o link da pasta** do projeto na tarefa do Google Salada de Aula relacionada a este projeto.
