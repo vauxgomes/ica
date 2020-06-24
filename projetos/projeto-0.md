@@ -10,11 +10,8 @@
 ## Sumário
 
 - [Objetivo](#objetivo)
-- [Ferramentas](#ferramentas)
-  - [Google Colab](#google-colaboratory)
-  - [UCI Repository](#uci-repository)
-- [Dados](#dados)
-- [Projeto](#projeto)
+- [Google Colab](#google-colaboratory)
+- [UCI Repository](#uci-repository)
 - [Como Submeter o Projeto](#como-submeter-o-projeto)
 - [Ajuda](#ajuda)
 - [Contatos](#contatos)
@@ -22,15 +19,14 @@
 ## Objetivo
 Iniciar o aprendizado do Jupyter Notebooks no Google Colab.
 
-## Ferramentas
-### Google Colabolatory
+## Google Colaboratory
 O Google Colaboratory, carinhosamente chamado de **Colab**, é um serviço de nuvem gratuito hospedado pelo Google para incentivar a pesquisa de Aprendizado de Máquina e Inteligência Artificial.
 
-É possível acessar o Colab diretamente pelo seguinte https://colab.research.google.com/notebooks/intro.ipynb.
+É possível acessar o Colab diretamente pelo seguinte link https://colab.research.google.com/notebooks/intro.ipynb.
 
 > É necessário possuir uma conta Google fara fazer uso da ferramenta
 
-#### Colab & Drive
+### Colab & Drive
 
 Neste projeto e nos demais precisaremos conectar o Colab com o Google Drive. 
 
@@ -53,7 +49,7 @@ Dentro da pasta `projeto-0/` clique com o botão direito e crie um novo document
 
 ![NewColabFile](img/colab-1.png)
 
-#### Ambiente de desenvolvimento
+### Ambiente de desenvolvimento
 
 O Colab será o ambiente de desenvolvimento para esta disciplina. Dentre outras vantagens, a ferramenta disponibiliza GPUs para os processamentos de dados que devemos executar durante o decorrer da disciplina.
 
@@ -79,12 +75,33 @@ Criar uma função chamada `perc(a,b)` que:
  - **Retorna**: 2 valores, $\frac{a}{a+b}$ e $\frac{b}{a+b}$
 ```
 
-Adicione uma célula de código e resolva o desafio acima.
+Adicione uma célula de código e resolva o desafio acima. Teste a sua função em uma célula separada.
+
+## UCI Repository
+
+O UCI Machine Learning Repository é uma coletânia de conjuntos de dados usados pela comunidade que estuda aprendizado de máquina para testar e analizar o desempenho de algoritmos de aprendizagem. A plataforma é mantida pela Universidade da Califórina em Irvine.
+
+É possível acessar o repositório por meio do link https://archive.ics.uci.edu/ml/index.php.
+
+Preferencialmente usaremos dados desta plataforma em nossos experimentos.
+
+Acesso o link acima e procure pelo conjunto de dados chamado **Breast Cancer Wisconsin**, clique em `Data Folder` e realize o download dos arquivo `breast-cancer-wisconsin.data` (que contém o conjunto de dados a ser estudado) e `breast-cancer-wisconsin.names` (que contém informações sobre o conjunto de dados).
+
+> Renomei estes arquivos para `bcw`
+
+Faça o upload dos arquivos na pasta `data/`. 
+
+## Como submeter o Projeto
+
+Compatilhe **o link da pasta** da disciplina na tarefa do Google Salada de Aula relacionada a este projeto.
 
 ## Ajuda
- - [Markdown para Iniciantes](https://produtive.me/guia/markdown-um-guia-para-iniciantes/)
+
+- [Google Colab: o que é e como usar?](https://www.alura.com.br/artigos/google-colab-o-que-e-e-como-usar)
+ - [Markdown para iniciantes](https://produtive.me/guia/markdown-um-guia-para-iniciantes/)
 
 ## Contatos
+
 Em caso de dúvidas procure contato via:
  - Google Sala de Aula
  - Email Institucional
