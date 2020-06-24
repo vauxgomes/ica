@@ -20,11 +20,11 @@ Desenvolver a compreensão da manipulação de colunas com o pandas.
 
 ## Projeto
 
-### Preparativos
+### Inicialização
 
 Crie a pasta `projeto-2` e arquivo `projeto-2.ipynb` dentro da pasta de projetos e abra o arquivo do Colab.
 
-Crie uma célula de texto e adicione o [cabeçalho do projeto](projeto-1.md#cabecalho). Adicione ao cabeçalho, o texto abaixo contendo informações sobre o BCW.
+Crie uma célula de texto e adicione o [cabeçalho do projeto](projeto-1.md#cabeçalho). Copie o objetivo deste arquivo. Adicione ao cabeçalho, o texto abaixo contendo informações sobre o BCW. 
 
 ```
 ### Colunas
@@ -52,8 +52,41 @@ Crie uma célula de texto e adicione o [cabeçalho do projeto](projeto-1.md#cabe
 | Maligno | 4 |
 ```
 
-Crie uma célula de código e [importe o conjunto de dados](projeto-1.md#importando-o-pandas) `bcw.data`.
+Faça o [importe o conjunto de dados](projeto-1.md#importando-o-pandas) `bcw.data`.
 
+### Seleção de colunas
+
+O pandas permite a seleção de colunas como atributo
+
+```py
+# Acessando a coluna thickness como atributo
+df.thickness
+```
+
+ou como índices da matríz de dados.
+
+```py
+# Acessando a coluna thickness como índice
+df['thickness']
+```
+
+O segundo segundo formato é preferível por permitir a seleção de mais de uma coluna, como segue.
+
+```py
+# Acessando as colunas thickness e id
+df[['thickness', 'id']]
+```
+
+> Observe os duplo cochete: ``[[]]``
+
+Como o resultado de uma seleção retorna um DataFrame, as funções e atributos que vimos no [projeto-1](projeto-1.md) podem ser utilizadas. Crie uma célula de código para cada desafio abaixo:
+ - Mostre as 7 primeiras linhas das colunas `size` e `adh`
+ - Mostre as 7 últimas linhas da coluna `misoses`
+ - Mostre o tipo da coluna `barenuclei`
+
+### Colunas desnecessárias
+
+Algumas colunas dos dados pode ser redundantes e/ou desnecessárias. Cabe a nós entendermos a natureza dos dados e observar, por meio de métricas, que colunas são estas. Por enquanto, podemos apenas nos livrar da coluna `id` que não traz nenhuma informação relevante.
 
 ## Como submeter o Projeto
 
