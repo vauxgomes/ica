@@ -24,9 +24,16 @@ Desenvolver a compreensão da manipulação de colunas com o pandas.
 
 Crie a pasta `projeto-2` e arquivo `projeto-2.ipynb` dentro da pasta de projetos e abra o arquivo do Colab.
 
-Crie uma célula de texto e adicione o [cabeçalho do projeto](projeto-1.md#cabeçalho). Copie o objetivo deste arquivo. Adicione o texto abaixo contendo informações sobre o BCW ao cabeçalho. 
+Crie uma célula de texto e adicione o [cabeçalho do projeto](projeto-1.md#cabeçalho). Copie o objetivo deste arquivo. Adicione o texto abaixo ao cabeçalho.
 
 ```
+## Dados
+BCW é um banco de dados sobre câncer de Mama de Wisconsin (8 de janeiro de 1991) disponibilizado pelo hospital da Universidade de Wisconsin, em Madison, do **Dr. William H. Wolberg**. 
+
+Os dados são suados para fazer uma separação de padrões de diagnóstico médico aplicado à citologia mamária. Para cada instância do dado apenas duas classes são possíveis:
+ - Benigna
+ - Maligna.
+ 
 ### Colunas
 | # | NOME ORIGINAL | DESCRIÇÃO | NOME ESCOLHIDO |
 | -- | -- | -- | -- |
@@ -52,7 +59,7 @@ Crie uma célula de texto e adicione o [cabeçalho do projeto](projeto-1.md#cabe
 | Maligno | 4 |
 ```
 
-Faça o [importe o conjunto de dados](projeto-1.md#importando-o-pandas) `bcw.data`.
+Crie uma célula de código e faça o [importe o conjunto de dados](projeto-1.md#importando-o-pandas) e a leitura do conjunto de dados.
 
 ### Seleção de colunas
 
@@ -183,8 +190,8 @@ Compatilhe **o link da pasta** do projeto na tarefa do Google Salada de Aula rel
 
 ## Ajuda
 
-- [Google Colab: o que é e como usar?](https://www.alura.com.br/artigos/google-colab-o-que-e-e-como-usar)
- - [Markdown para iniciantes](https://produtive.me/guia/markdown-um-guia-para-iniciantes/)
+ - [Uma Introdução Simples ao Pandas](https://medium.com/data-hackers/uma-introdu%C3%A7%C3%A3o-simples-ao-pandas-1e15eea37fa1)
+
 
 ## Contatos
 

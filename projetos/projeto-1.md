@@ -187,6 +187,8 @@ Compatilhe **o link da pasta** do projeto na tarefa do Google Salada de Aula rel
 
 - [Google Colab: o que é e como usar?](https://www.alura.com.br/artigos/google-colab-o-que-e-e-como-usar)
  - [Markdown para iniciantes](https://produtive.me/guia/markdown-um-guia-para-iniciantes/)
+ - [Uma Introdução Simples ao Pandas](https://medium.com/data-hackers/uma-introdu%C3%A7%C3%A3o-simples-ao-pandas-1e15eea37fa1)
+
 
 ## Contatos
 

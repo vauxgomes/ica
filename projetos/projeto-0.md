@@ -88,7 +88,7 @@ O UCI Machine Learning Repository é uma coletânia de conjuntos de dados usados
 
 Preferencialmente usaremos dados desta plataforma em nossos experimentos.
 
-Acesso o link acima e procure pelo conjunto de dados chamado **Breast Cancer Wisconsin**, clique em `Data Folder` e realize o download dos arquivo `breast-cancer-wisconsin.data` (que contém o conjunto de dados a ser estudado) e `breast-cancer-wisconsin.names` (que contém informações sobre o conjunto de dados).
+Acesse o link acima e procure pelo conjunto de dados chamado **Breast Cancer Wisconsin**, clique em `Data Folder` e realize o download dos arquivo `breast-cancer-wisconsin.data` (que contém o conjunto de dados a ser estudado) e `breast-cancer-wisconsin.names` (que contém informações sobre o conjunto de dados).
 
 > Renomei estes arquivos para `bcw`
 
