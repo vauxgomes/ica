@@ -178,12 +178,12 @@ for i, x in enumerate(df.columns[:-1]):
       sel[i] = False # Descarte da coluna
 
 sel = df.columns[sel] # Nomes das colunas
-df = df[cols] # Atualizaçãdo do conjunto de dados
+df = df[cols] # Atualização do conjunto de dados
 
 df.head(10)
 ```
 
-> Se você acredita que eu tentei usar as cores do IF nos gráficos, comente "acredito" no fórum da semana, ou comente "c-loko" caso contrário.
+> Se você acredita que eu tentei usar as cores do IF nos gráficos comente "acredito" no fórum da semana; ou comente "c-loko", caso contrário.
 
 ## Como submeter o Projeto
 
