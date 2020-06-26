@@ -20,11 +20,11 @@ Desenvolver a compreensão da manipulação de colunas com o pandas.
 
 ## Projeto
 
-### Inicialização
+### Cabeçalho & Inicialização
 
 Crie a pasta `projeto-2` e arquivo `projeto-2.ipynb` dentro da pasta de projetos e abra o arquivo do Colab.
 
-Crie uma célula de texto e adicione o [cabeçalho do projeto](projeto-1.md#cabeçalho). Copie o objetivo deste arquivo. Adicione ao cabeçalho, o texto abaixo contendo informações sobre o BCW. 
+Crie uma célula de texto e adicione o [cabeçalho do projeto](projeto-1.md#cabeçalho). Copie o objetivo deste arquivo. Adicione o texto abaixo contendo informações sobre o BCW ao cabeçalho. 
 
 ```
 ### Colunas
@@ -80,13 +80,102 @@ df[['thickness', 'id']]
 > Observe os duplo cochete: ``[[]]``
 
 Como o resultado de uma seleção retorna um DataFrame, as funções e atributos que vimos no [projeto-1](projeto-1.md) podem ser utilizadas. Crie uma célula de código para cada desafio abaixo:
+ - Mostre as 7 últimas linhas da coluna `mitoses`
  - Mostre as 7 primeiras linhas das colunas `size` e `adh`
- - Mostre as 7 últimas linhas da coluna `misoses`
  - Mostre o tipo da coluna `barenuclei`
+ - Use `describe` nas colunas `chromatin` e `nucleoli`
 
-### Colunas desnecessárias
+### Buscando dados à partir dos valores das colunas
+
+Uma maneira de observar os valores presentes em uma coluna é usando a função `unique` ou a função `value_counts` na coluna de interesse. Crie uma célula de código e teste as funções na coluna `barenuclei`. Verifique que um dos valores retornados é `'?'`.
+
+O Pandas permite que possamos realizar buscas nas colunas com pequenas porções de código. Por exemplo, se quisermos observar as instâncias cuja coluna `barenuclei` tem valor `'?'`, utilizamos o código abaixo:
+
+```py
+df[df['barenuclei'] == '?']
+```
+
+Ou, se quisermos encontrar todas as instâncias do conjunto de dados cuja coluna `size` é maior ou igual a 7 **e** a coluna `shape` é menor que 3, utilizamos:
+
+```
+df[(df['size'] >= 7) & (df['shape'] < 3)]
+```
+
+> Este tipo de busca não é possível em listas normais do Python
+
+Baseado no bloco acima, crie uma célula de código para cada desafio abaixo: 
+ - Encontre as instâncias que têm classe benigna, quantas são?
+ - Encontre as instâncias que têm classe maligna, quantas são?
+ - Encontre as instâncias que têm classe benigna e mitose maior que 5
+ - Encontre as instâncias que têm todas as colunas iguais a 3
+
+> **Dica:** Use o atributo `shape` se necessário.
+
+### Remoção de colunas
 
 Algumas colunas dos dados pode ser redundantes e/ou desnecessárias. Cabe a nós entendermos a natureza dos dados e observar, por meio de métricas, que colunas são estas. Por enquanto, podemos apenas nos livrar da coluna `id` que não traz nenhuma informação relevante.
+
+A função `drop` permite remover uma ou mais colunas e tambem permite remover linhas (instâncias) do nosso conjunto de dados. Desta forma, podemos remover a coluna `id` como segue:
+
+```py
+df = df.drop(['id'], axis=1)
+```
+
+> `axis=1` implica em dizer que estamos removendo colunas
+
+A função realiza a remoção e retorna **uma novo** DataFrame, resultante da remoção da coluna. Então, para atualizar o nosso DataFrame salvamos o resultado do drop no próprio DataFrame. 
+
+Contudo, esta função (e algumas outras) possuem o parâmetro `inplace` que permite aplicar a mudança no próprio DataFrame quando seu valor é `True`. Então uma outra maneira de escrever o código acima seria:
+
+```py
+df.drop(['id'], axis=1, inplace=True)
+```
+
+Como a função recebe uma lista como primeiro parâmetro, isso indica para nós que poderíamos remover várias colunas e linhas ao mesmo tempo.
+
+Crie uma célula e cole o código para remover a coluna `id`. Crie uma segunda célula de código e escreva o código para remover a primeira e a última linha do conjunto de dados usando a função `drop`.
+
+### Valores faltantes (*Missing values*)
+
+Apesar do conjunto de dados ser composto por colunas do tipo inteiro, quando usamos `dtypes` vemos que a coluna `barenuclei` foi carregada como objeto (*object*).
+
+Como visto, algumas instâncias apresentam o valor `'?'` na coluna `barenuclei`. Isto simboliza, na maioria das vezes, valores faltantes nos dados. Antes de resolvermos este problema, crie uma célula de texto e escreva um parágrafo sobre "por que os dados têm valores faltantes?".
+
+Temos duas maneiras de nos livrarmos destes valores faltantes. 
+
+1. Remover as linhas que possuem estes valores.
+   
+   > A desvantagem é que estamos perdendo mais informação que o necessário, pois existem algoritmos que conseguem trabalhar com  instâncias de valores faltantes, mas é aceitável quando a quantidade de instâncias excluídas é pequena.
+
+2. Transformar o valor faltante em um outro valor como:
+   1. A média dos valores daquela coluna;
+   2. O valor mais frequente daquela coluna;
+   3. Um valor 'numérico' mas que ainda representa um valor faltante.
+   
+   > A terceira alternativa parece ser a mais utilizada
+
+O código a seguir realiza 3 ações
+ - Troca de todos os valores '?' por `np.NaN` (*Not a Number*) — este valor é entendido como numérico, mas não é possível realizar computações com ele.
+ - Realiza a remoção de todos as linhas que tenham algum valor `NaN`.
+ - Transformar a coluna `barenuclei` para inteiro.
+
+> Este último passo é importante pois boa parte dos algoritmos de aprendizado de máquina preferem trabalhar com números,
+
+```py
+# Trocando ? por NaN
+df.replace('?', np.NaN, inplace=True)
+
+# Eliminando linhas que contém NaN
+df.dropna(inplace=True)
+
+# Mudando o tipo da coluna
+df['barenuclei'] = df['barenuclei'].astype('int64')
+```
+
+#### Desafio
+Execute novamente a célula que faz o carregamento dos dados, crie uma célula de código e realize a troca de `'?'` na coluna `barenuclei` pelo valor mais frequente dela.
+
+> Dica: Utilize a função `value_counts`
 
 ## Como submeter o Projeto
 

@@ -43,10 +43,11 @@ Iniciar o aprendizado do pandas.
 
 O pandas não é uma biblioteca padrão do Python (isto é, ela não vem instalada por padrão). Seria necessário fazer a instalação da biblioteca no nosso ambiente local, mas o Colab já possui a biblioteca em sua base (isto facilita o trabalho).
 
-Crie uma célula de código e importe o Pandas como segue.
+Crie uma célula de código e importe o Numpy e o Pandas como segue.
 
 ```py
-# Pandas
+# Bibliotecas
+import numpy as np
 import pandas as pd
 ```
 
