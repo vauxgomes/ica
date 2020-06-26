@@ -90,7 +90,7 @@ O código a seguir transforma o tipo da coluna `class` para categoria (lista con
 df['class'] = df['class'].astype('category').cat.codes
 ```
 
-Outra maneira, é usando um dicionário de mapeamento com a função `replace`. Execute a célula que realiza leitura do conjunto de dados.
+Outra maneira, é usando um dicionário de mapeamento com a função `replace`. Execute a célula que carrega o conjunto de dados.
 
 Copie e execute o código abaixo que mapeia os valores indesejados de coluna `class` para um valor desejado.
 
@@ -163,10 +163,9 @@ Crie uma célula de código remova a(s) coluna(s) mencionada(s) acima.
 df.drop(columns=['A', 'B', 'C'])
 ```
 
-
 #### Extra
 
-Assumindo um `limite = 0.9`, poderíamos criar um código que remove colunas "desnecessárias". Crie o execute a célula de código abaixo.
+Assumindo um `limite = 0.9`, poderíamos criar um código que remove colunas "desnecessárias". Execute a célula Crie o execute a célula de código abaixo.
 
 ```py
 sel = [True]*df.shape[1] # True para todas as colunas
@@ -183,7 +182,23 @@ df = df[cols] # Atualização do conjunto de dados
 df.head(10)
 ```
 
-> Se você acredita que eu tentei usar as cores do IF nos gráficos comente "acredito" no fórum da semana; ou comente "c-loko", caso contrário.
+> Se você acredita que eu tentei usar as cores do IF nos gráficos acima comente "acredito" no fórum da semana; ou comente "c-loko", caso contrário.
+
+#### Visualização em relação à classe
+
+Neste momento, também é interessante observar os valores do classe e como eles se distribuem nos gráficos acima. Logo, cada classe do conjunto de dados será representado por uma cor diferente.
+
+Execute novamente a célula que carrega os dados e a que transforma os valores da coluna `class`. Crie e execute as células abaixo:
+
+```py
+# petal_length × petal_width
+df.plot.scatter(x='petal_length', y='petal_width', c='class', colormap='viridis', figsize=(8, 6))
+```
+
+```py
+# sepal_length × sepal_width
+df.plot.scatter(x='sepal_length', y='sepal_width', c='class', colormap='viridis', figsize=(8, 6))
+```
 
 ## Como submeter o Projeto
 
