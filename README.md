@@ -4,12 +4,15 @@
 Material de apoio da matéria de Inteligência Computaciona Aplicada do IFCE *campus* Jaguaribe.
 
 ## Avaliações
-- N1
+- `N1`
   - Notas de aula: 30%
-  - Apresentação das notas de aula: 10%
-- N2
+  - Assistir os vídeos: 10%
+- `N2`
   - Projetos: 30%
   - Projeto final: 30%
+
+## Notebooks
+  - [Notebooks](notebooks/README.md)
 
 ## Projetos
 - **Pandas**
@@ -18,13 +21,11 @@ Material de apoio da matéria de Inteligência Computaciona Aplicada do IFCE *ca
   - [Projeto 2](projetos/projeto-2.md)
   - [Projeto 3](projetos/projeto-3.md)
   - [Projeto 4](projetos/projeto-4.md)
+
+  
 - **Scikit-learn**
   - [Projeto 5](projetos/projeto-5.md)
-  - **Lógica Nebulosa (Fuzzy)**
-  - **Regressão**
-  - **K-Vizinhos Mais Próximos**
-  - **Árvores**
-  
+
 ## Links
 - [Template para notas de aula](https://www.overleaf.com/read/jswgyhbstfps)
 
