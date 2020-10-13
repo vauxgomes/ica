@@ -8,3 +8,5 @@
   - [Pandas II](notebook-4.ipynb)
   - [Pandas III](notebook-5.ipynb)
   - [Pandas IV](notebook-6.ipynb)
+- Scikit-Learn
+  - [Regressão Linear](notebook-7.ipynb)
