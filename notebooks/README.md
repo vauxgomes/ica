@@ -7,3 +7,4 @@
   - [Pandas I](notebook-3.ipynb)
   - [Pandas II](notebook-4.ipynb)
   - [Pandas III](notebook-5.ipynb)
+  - [Pandas IV](notebook-6.ipynb)
