@@ -25,6 +25,7 @@ Material de apoio da matéria de Inteligência Computaciona Aplicada do IFCE *ca
   
 - **Scikit-learn**
   - [Projeto 5](projetos/projeto-5.md)
+  - [Regressão Linear](projetos/projeto-6.ipynb)
 
 ## Links
 - [Template para notas de aula](https://www.overleaf.com/read/jswgyhbstfps)
