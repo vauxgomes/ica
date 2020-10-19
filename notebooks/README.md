@@ -10,3 +10,4 @@
   - [Pandas IV](notebook-6.ipynb)
 - Scikit-Learn
   - [Regressão Linear](notebook-7.ipynb)
+  - [Regressão Logística](notebook-8.ipynb)
