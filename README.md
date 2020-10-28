@@ -12,7 +12,22 @@ Material de apoio da matéria de Inteligência Computaciona Aplicada do IFCE *ca
   - Projeto final: 30%
 
 ## Notebooks
-  - [Notebooks](notebooks/README.md)
+- [Notebooks](notebooks/README.md)
+
+- [Introdução ao Jupyter Notebook](notebooks/notebook-0.ipynb)
+- [Introdução ao Google Colab](notebooks/notebook-1.ipynb)
+- [Revisão Python](notebooks/notebook-2.ipynb)
+- Pandas
+  - [Pandas I](notebooks/notebook-3.ipynb)
+  - [Pandas II](notebooks/notebook-4.ipynb)
+  - [Pandas III](notebooks/notebook-5.ipynb)
+  - [Pandas IV](notebooks/notebook-6.ipynb)
+- Scikit-Learn
+  - [Regressão Linear](notebooks/notebook-7.ipynb)
+  - [Regressão Logística](notebooks/notebook-8.ipynb)
+  - [KNN](notebooks/notebook-9.ipynb)
+  - [Árvore de decisão](notebooks/notebook-10.ipynb)
+  - [SVM](notebooks/notebook-11.ipynb)
 
 ## Projetos
 - **Pandas**
